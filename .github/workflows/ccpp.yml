@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: set configure executable
+      run: chmod u+x ./configure
     - name: configure
       run: ./configure
     - name: make
