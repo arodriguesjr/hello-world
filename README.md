@@ -1,3 +1,3 @@
 # Hello World!
 First repository ever!
-Seconde edit!
+Second edit!
