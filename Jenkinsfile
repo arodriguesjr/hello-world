@@ -6,7 +6,6 @@ pipeline {
                 sh 'make all'
             }
         }
-    }
         stage('Test') {
             steps {
                 sh 'echo "Success!"; exit 0'
