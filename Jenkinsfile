@@ -1,6 +1,5 @@
 pipeline {
-    agent { docker { image 'gcc' } }
-    stages {
+    agent any    stages {
         stage('build') {
             steps {
                 sh 'make all'
