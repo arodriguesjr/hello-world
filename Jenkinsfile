@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'make all'
+                sh 'echo make all' // do nothing for now
             }
         }
         stage('Test') {
